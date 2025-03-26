@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+  <diagram id="W9SWec9v347MRh-1x0kp" name="Strona-1">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="syStxAr2tAMvpP7afRM2-1" value="Hurtownia" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-2" value="Księgowy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-3" value="Kierownik&lt;div&gt;Sprzedaży&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-4" value="System księgowy" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-5" value="System zamówień" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="100" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-6" value="Lista obiektów do zakupu" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-7" value="Złożenie zamówień" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-6" target="syStxAr2tAMvpP7afRM2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-7" target="syStxAr2tAMvpP7afRM2-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="310" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-10" value="Baza danych" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-11" value="Rejestracja zakupionych obiektów" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-12" value="Opłacenie zakupionych obiektów" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-13" value="Wydanie faktury" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="309" y="290" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-11" target="syStxAr2tAMvpP7afRM2-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-12" target="syStxAr2tAMvpP7afRM2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-13" target="syStxAr2tAMvpP7afRM2-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="470" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-13" target="syStxAr2tAMvpP7afRM2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-20" value="Realizacja zamówienia" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="200" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-7" target="syStxAr2tAMvpP7afRM2-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-20" target="syStxAr2tAMvpP7afRM2-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="syStxAr2tAMvpP7afRM2-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="syStxAr2tAMvpP7afRM2-20" target="syStxAr2tAMvpP7afRM2-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
